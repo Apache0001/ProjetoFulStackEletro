@@ -1,0 +1,67 @@
+@font-face {
+    font-family: StarJedi;
+    src: url("../_fonts/Starjedi.ttf");
+}
+body{
+    background-color:#007bff;
+}
+p.logo-top{
+    font-family:StarJedi;
+    display:inline;
+    font-size: 1.2em;
+    position: relative;
+}
+/* ###########################TOPO####################################*/
+/*ESTILOS MENU NAVBAR*/
+.logo-top a:hover{
+    background-color:#007bff ;
+    color: white;
+    border-radius: .25rem;
+    transition: .4s;
+    
+}
+.navbar-nav li{
+    margin: 1px;
+}
+.navbar-item{
+    font-size: 20px;
+}
+
+
+/* ESTILOS MENU CATEGORIA*/
+.menu-categoria{
+    list-style: none;
+    text-decoration: none;
+    padding-inline-start: 0px;
+}
+.menu-categoria li{
+    color:white;
+    font-weight: bold;
+    list-style: none;
+}
+.menu-categoria li:hover{
+    background-color: #007bff;
+}
+.categoria{
+    font-weight: bold;
+    font-size: 1em;
+}
+
+
+.content-item:hover{
+   box-shadow: 5px 5px 5px 2px #888888;;
+    transition: .3s;
+}
+.content-item:hover .preco {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    transition: .3s;
+    
+}
+.content-item:hover .nome-item{
+    
+    color:red;
+    font-weight: bold;
+}
+
